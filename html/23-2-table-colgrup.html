@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Belajar Membuat Tabel</h1>
+    Tag untuk membuat tabel:
+    <ul>
+        <li>Tag table, digunakan untuk membuat tabel</li>
+        <li>Tag tr (table row) untuk membuat row/baris</li>
+        <li>Tag th (table head) untuk membuat kolom header tabel</li>
+        <li>Tag td untuk membuat kolom isi tabel</li>
+        <li>Tag caption untuk keterangan tabel</li>
+        <li>Tag thead untuk gurp header tabel</li>
+        <li>Tag tbody untuk grup isi table</li>
+        <li>tag tfoot untuk grup footer tabel</li>
+    </ul>
+
+    <table style="border: 1px solid black;">
+        <colgroup>
+            <col span="2" style="background-color: yellow;">
+            <col style="background-color: aqua;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Nama Depan</th>
+                <th>Nama Belakang</th>
+                <th>Nilai</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Eko</td>
+                <td>Khannedy</td>
+                <td>80</td>
+            </tr>
+            
+            <tr>
+                <td>Budi</td>
+                <td>Nugraha</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>Total</td>
+                <td>170</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
